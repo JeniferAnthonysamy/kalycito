@@ -1,0 +1,246 @@
+/*margins*/
+
+* {
+  margin: 0;
+}
+
+.businessGoal {
+  margin-top: 2%;
+}
+.businessGoal {
+  margin-bottom: 2%;
+}
+
+.historyitemlist,.charactersitemlist{
+  margin-bottom: 3%;
+}
+
+#facebook{
+  clear: left;
+}
+
+/*padding*/
+* {
+  padding: 0;
+}
+
+h1,h2,h3.fa,.image img{
+  padding-top: 2%;
+}
+h1,h2,h3,.fa,.image img{
+  padding-bottom: 2%;
+}
+
+.historyitemlist p,.charactersitemlist p ,.company p{
+  padding-top: 3%;
+}
+
+.historyitemlist p,.charactersitemlist p ,.company p{
+  padding-bottom: 2%;
+}
+.historyitemlist p,.charactersitemlist p ,.company p{
+  padding-right: 5%;
+}
+
+.historyitemlist p,.charactersitemlist p ,.company p{
+  padding-left: 5%;
+}
+
+.businessGoal p,#iicimage img,#kalycitoimage img,.image img{
+  padding-top: 5%;
+}
+
+.businessGoal p{
+  padding-bottom: 5%;
+}
+
+.businessGoal p{
+  padding-left: 10%;
+}
+.businessGoal p{
+  padding-right: 10%;
+}
+
+/*size*/
+
+html, body,#fullscreen {
+  height: 100%;
+}
+
+.historyitemlist{
+  width: 25%;
+}
+
+.charactersitemlist,.socialLinks{
+  width: 33.3%;
+}
+.fa{
+  width: 100%;
+}
+
+.company{
+  width: 50%;
+}
+
+
+
+#iicimage img,#kalycitoimage img{
+  max-width: 200px;
+}
+.image img{
+  max-width: 300px;
+
+}
+.image img{
+  max-height: 200px;
+}
+
+
+
+
+
+/*text position*/
+
+#fullscreen h1, #fullscreen h2 ,#fullscreen img,.businessGoal p{
+  position: relative;
+}
+
+#fullscreen h1, #fullscreen h2 {
+  top: 40%;
+}
+
+
+/*float position*/
+.historyitemlist,.charactersitemlist,.company,.socialLinks{
+  float: left;
+}
+
+.businessGoal,.characters ,#finalFooter{
+  clear: both;
+}
+/*text deco*/
+.businessGoal p{
+  font-style: italic;
+}
+/*color*/
+.fa{
+  color: red;
+}
+
+.businessGoal{
+  background-color: #e6e6e6;
+}
+
+#finalFooter,.socialLinks{
+  background-color: black;
+}
+#finalFooter h2,#finalFooter h3{
+  color: white;
+}
+
+/*text align*/
+#fullscreen h1, #fullscreen h2,#historyHeading,.historyitemlist i,.historyitemlist h4,.historyitemlist p,.businessGoal,.characters,.charactersitemlist i,.charactersitemlist h4,.charactersitemlist p, .image,.company h3,.company p,#iicimage,#kalycitoimage,.socialLinks{
+text-align: center;
+}
+
+#facebook{
+  text-align: right;
+}
+#linkedin{
+  text-align: left;
+}
+
+/*specifics*/
+#fullscreen {
+background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("static/Dominos-falling.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#businessGoal {
+background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("static/goal.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#businessGoal {
+background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("static/goal.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wayahead {
+background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("static/climibing.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*line height*/
+.historyitemlist p{
+line-height: 130%;
+}
+
+
+/*text size*/
+.fa {
+    font-size: 400%;
+}
+
+.businessGoal p{
+font-size: 200%;
+}
+
+.button {
+    background-color: white;
+   color: black;
+   border: 2px solid red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left:40%;
+}
+
+
+#weblink{
+  left:40%;
+  background-color: black;
+  color: Red;
+  border: none;
+  font-size: 130%;
+  text-decoration: underline;
+  clear: both;
+  padding-bottom: 1%;
+}
+
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
