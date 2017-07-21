@@ -261,6 +261,9 @@ hr:before {
   #weblink,.button {
     left:20%;
   }
+  .businessGoal p{
+    font-size: 150%;
+}
 }
 @media only screen and (max-width: 370px) {
   #weblink,.button {
@@ -268,6 +271,9 @@ hr:before {
   }
 .company img{
     width: 60%;
+}
+.businessGoal p{
+  font-size: 150%;
 }
 }
 @media only screen and (max-width: 320px) {
