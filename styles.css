@@ -293,6 +293,9 @@ hr:before {
   color: Red;
   border: none;
   font-size: 130%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
   /*left: 40%;
   padding-bottom: 1%;*/
 }
