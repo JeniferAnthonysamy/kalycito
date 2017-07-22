@@ -185,7 +185,7 @@ html, body, #fullscreen {
 
 /*text align*/
 
-#fullscreen h1, #fullscreen h2, #historyHeading, .historyitemlist i, .historyitemlist h4, .historyitemlist p, .businessGoal, .characters, .charactersitemlist i, .charactersitemlist h4, .charactersitemlist p, .image, .company h3, .company p, #iicimage, #kalycitoimage, .socialLinks {
+#fullscreen h1, #fullscreen h2, #historyHeading, .historyitemlist i, .historyitemlist h4, .historyitemlist p, .businessGoal, .characters, .charactersitemlist i, .charactersitemlist h4, .charactersitemlist p, .image, .company h3, .company p, #iicimage, #kalycitoimage, .socialLinks,.weblinks {
   text-align: center;
 }
 
@@ -271,54 +271,45 @@ hr:before {
   background-color: white;
   color: black;
   border: 2px solid red;
-  padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  padding: 15px 32px;
+
+  /*margin: 4px 2px;
   cursor: pointer;
   position: relative;
   left: 40%;
+  text-align: center;*/
+
 }
 
 /*weblinks*/
 
 #weblink {
-  left: 40%;
+  text-decoration: underline;
+  clear: both;
   background-color: black;
   color: Red;
   border: none;
   font-size: 130%;
-  text-decoration: underline;
-  clear: both;
-  padding-bottom: 1%;
+  /*left: 40%;
+  padding-bottom: 1%;*/
 }
 
 /*media queries*/
 
-@media only screen and (max-width: 425px) {
-  #weblink, .button {
-    left: 20%;
+@media only screen and (max-width: 600px) {
+  .company, .historyitemlist, .charactersitemlist {
+    width: 50%;
   }
-  .businessGoal p {
-    font-size: 150%;
+  .promiselist{
+    width: 33%;
   }
+
 }
 
-@media only screen and (max-width: 370px) {
-  #weblink, .button {
-    left: 15%;
-  }
-  .company img {
-    width: 60%;
-  }
-  .businessGoal p {
-    font-size: 150%;
-  }
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
   .button {
     left: 35%;
   }
