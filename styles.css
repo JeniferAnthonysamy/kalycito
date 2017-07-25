@@ -56,7 +56,7 @@ h1, h2, h3, .fa, .image img {
   padding-bottom: 2%;
 }
 
-.businessGoal p {
+.businessGoal p ,#commitment p{
   padding-bottom: 5%;
 }
 
@@ -66,7 +66,7 @@ h1, h2, h3, .fa, .image img {
   padding-right: 5%;
 }
 
-.businessGoal p {
+.businessGoal p ,#commitment p{
   padding-right: 10%;
 }
 
@@ -76,7 +76,7 @@ h1, h2, h3, .fa, .image img {
   padding-left: 5%;
 }
 
-.businessGoal p {
+.businessGoal p ,#commitment p{
   padding-left: 10%;
 }
 
@@ -185,7 +185,7 @@ html, body, #fullscreen {
 
 /*text align*/
 
-#fullscreen h1, #fullscreen h2, #historyHeading, .historyitemlist i, .historyitemlist h4, .historyitemlist p, .businessGoal, .characters, .charactersitemlist i, .charactersitemlist h4, .charactersitemlist p, .image, .company h3, .company p, #iicimage, #kalycitoimage, .socialLinks,.weblinks {
+#fullscreen h1, #fullscreen h2, #historyHeading, .historyitemlist i, .historyitemlist h4, .historyitemlist p, .businessGoal, .characters, .charactersitemlist i, .charactersitemlist h4, .charactersitemlist p, .image, .company h3, .company p, #iicimage, #kalycitoimage, .socialLinks,.weblinks,#commitment p {
   text-align: center;
 }
 
@@ -199,7 +199,7 @@ html, body, #fullscreen {
 
 /*line height*/
 
-.historyitemlist p {
+.historyitemlist p ,#commitment p{
   line-height: 130%;
 }
 
@@ -275,13 +275,6 @@ hr:before {
   display: inline-block;
   font-size: 16px;
   padding: 15px 32px;
-
-  /*margin: 4px 2px;
-  cursor: pointer;
-  position: relative;
-  left: 40%;
-  text-align: center;*/
-
 }
 
 /*weblinks*/
@@ -330,4 +323,33 @@ hr:before {
   .businessGoal p {
     font-size: 150%;
   }
+}
+
+
+/*arrow down*/
+
+.arrow{
+position:relative;
+text-align: center;
+animation:mymove 3s ease-out forwards;
+animation-iteration-count:infinite;
+
+/* Safari and Chrome */
+-webkit-animation:mymove 3s;
+-webkit-animation-iteration-count:infinite;
+}
+
+.fa-chevron-down{
+  font-size: 200%;
+}
+
+@keyframes mymove
+{ from {top:60%; opacity: 0.5;}
+to {top:65%; opacity: 1}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+from {top:60%; opacity: 0.5;}
+to {top:65%; opacity: 1;}
 }
